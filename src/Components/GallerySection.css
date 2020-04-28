@@ -1,8 +1,6 @@
-.TituloPrd{
-    text-align: center;
+.titulo{
     font-family: DialogInput;
 }
-.ParrafoProd{
-    text-align: justify;
+.parrafo{
     font-family: 'Open Sans Condensed', sans-serif;
 }

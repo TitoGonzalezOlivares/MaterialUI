@@ -3,6 +3,7 @@ import { Grid, makeStyles} from '@material-ui/core';
 import CardSimple from './CardSimple'
 import './ProductSection.css';
 
+
 const useStyles = makeStyles ({
     root: {
         flexGrow: 1,

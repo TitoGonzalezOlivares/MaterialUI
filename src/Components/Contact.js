@@ -18,7 +18,7 @@ const Contact = (config) => {
     const classes = useStyles();
     return (
         <div>
-            <h2> ¿Te gustaria recibir más informacion? Ingresa tu correo para recibirla!! </h2>
+            <h2 className={'parrafo'}> ¿Te gustaria recibir más informacion? Ingresa tu correo para recibirla!! </h2>
             <form className={'Info'} noValidate autoComplete="off">
                 <div className={'Nombre'}><TextField  id="outlined-basic" label="Coreo Electronico" variant="outlined" size={'small'} /></div>
                 <div className={'Telefono'}><TextField  id="outlined-basic" label="Teléfono" variant="outlined" size={'small'}/></div>

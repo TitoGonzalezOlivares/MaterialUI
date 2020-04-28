@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
-import {Grid} from "@material-ui/core";
+import './GallerySection.css';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -23,8 +23,8 @@ const GallerySection = () => {
 
     return (
         <div className={classes.root}>
-            <h2>Galeria</h2>
-            <p>Aquí te mostramos las fotografías que nos envían nuestros Fans.</p>
+            <h2 className={'titulo'}>Galeria</h2>
+            <p className={'parrafo'}>Aquí te mostramos las fotografías que nos envían nuestros Fans.</p>
 
             <GridList cellHeight={300} className={classes.gridList} cols={3}>
                 <GridListTile key={'x'} cols={2}>
