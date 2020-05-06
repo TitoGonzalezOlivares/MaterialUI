@@ -9,6 +9,7 @@ import Contact from './Components/Contact';
 
 
 import './App.css';
+import Footer from "./Components/Footer";
 
 function App() {
     const config = {
@@ -23,6 +24,7 @@ function App() {
                     <ProductSection/>
                     <GallerySection/>
                     <Contact/>
+                    <Footer/>
                 </header>
             </Container>
         </div>
