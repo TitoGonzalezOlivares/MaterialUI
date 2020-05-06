@@ -1,17 +1,18 @@
 .Info{
     text-align: center;
     margin-bottom: 50px;
+    margin-top: 50px;
     font-family: DialogInput;
 }
-.Nombre{
-    padding: 8px;
+.correo{
+
+    margin-top: 10px;
+    padding: 10px;
 }
 .Telefono{
-    padding: 8px;
+    padding: 10px;
 }
-.Direccion{
-    padding: 8px;
-}
+
 .parrafo{
     font-family: DialogInput;
 }

@@ -26,7 +26,7 @@ const GallerySection = () => {
             <h2 className={'titulo'}>Galeria</h2>
             <p className={'parrafo'}>Aquí te mostramos las fotografías que nos envían nuestros Fans.</p>
 
-            <GridList cellHeight={300} className={classes.gridList} cols={3}>
+            <GridList cellHeight={350} className={classes.gridList} cols={3}>
                 <GridListTile key={'x'} cols={2}>
                     <img src={'img/Galeria/Desktop1.png'} alt={'Example'} />
                 </GridListTile>
